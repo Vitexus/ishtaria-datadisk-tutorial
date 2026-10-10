@@ -1,0 +1,13 @@
+id: tutorial_merchant
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: tutorial_merchant.greet
+    choices:
+      - {text_key: tutorial_merchant.browse, goto: browse}
+      - {text_key: tutorial_merchant.leave}
+  browse:
+    text_key: tutorial_merchant.wares
+    choices:
+      - {text_key: tutorial_merchant.back, goto: greet}

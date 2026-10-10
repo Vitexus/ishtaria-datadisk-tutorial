@@ -1,0 +1,24 @@
+# Tutorial World - Main zones
+
+- id: tutorial_village
+  kind: city
+  name_key: place.tutorial_village
+  radius_m: 200
+  scenery: {preset: town, size: hamlet}
+  spawn: true
+  requires:
+    biome: [grassland]
+    height_m: {min: 0, max: 100}
+    max_slope_deg: 5
+
+- id: tutorial_graveyard
+  kind: graveyard
+  name_key: place.tutorial_graveyard
+  radius_m: 24
+  music: midpoint
+  music_radius_m: 70
+  scenery: {preset: graveyard}
+  requires:
+    max_slope_deg: 15
+    near:
+      - {place: tutorial_village, min_m: 500, max_m: 1500}

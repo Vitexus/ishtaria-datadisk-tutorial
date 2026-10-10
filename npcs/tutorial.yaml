@@ -1,0 +1,75 @@
+# Tutorial NPCs - Simplified for validation
+
+# Basic tutors using valid character packs (protagonists, retro, survivors)
+- id: alara
+  name_key: npc.alara
+  place: tutorial_village
+  character: {pack: protagonists, skin: adventurerFemaleA}
+  dialogue: alara
+  portrait: media/portraits/alara.jpg
+  bio_key: npc.alara.bio
+  tags: [tutor]
+
+- id: crafton
+  name_key: npc.crafton
+  place: tutorial_village
+  character: {pack: survivors, skin: survivorMaleA}
+  dialogue: crafton
+  portrait: media/portraits/crafton.jpg
+  bio_key: npc.crafton.bio
+  tags: [tutor]
+
+- id: valerian
+  name_key: npc.valerian
+  place: tutorial_village
+  character: {pack: retro, skin: humanMaleA}
+  dialogue: valerian
+  portrait: media/portraits/valerian.jpg
+  bio_key: npc.valerian.bio
+  tags: [tutor]
+
+- id: hammerin
+  name_key: npc.hammerin
+  place: tutorial_village
+  character: {pack: protagonists, skin: warriorMaleA}
+  dialogue: hammerin
+  portrait: media/portraits/hammerin.jpg
+  bio_key: npc.hammerin.bio
+  tags: [tutor]
+
+- id: merchan
+  name_key: npc.merchan
+  place: tutorial_village
+  character: {pack: retro, skin: humanFemaleA}
+  dialogue: merchan
+  portrait: media/portraits/merchan.jpg
+  bio_key: npc.merchan.bio
+  tags: [tutor]
+
+- id: arcanis
+  name_key: npc.arcanis
+  place: tutorial_village
+  character: {pack: protagonists, skin: mageFemaleA}
+  dialogue: arcanis
+  portrait: media/portraits/arcanis.jpg
+  bio_key: npc.arcanis.bio
+  tags: [tutor]
+
+- id: portalus
+  name_key: npc.portalus
+  place: tutorial_village
+  character: {pack: protagonists, skin: scholarMaleA}
+  dialogue: portalus
+  portrait: media/portraits/portalus.jpg
+  bio_key: npc.portalus.bio
+  tags: [tutor]
+
+# Merchant with shop tag
+- id: tutorial_merchant
+  name_key: npc.tutorial_merchant
+  place: tutorial_village
+  character: {pack: retro, skin: merchantFemaleA}
+  dialogue: tutorial_merchant
+  portrait: media/portraits/merchant.jpg
+  bio_key: npc.tutorial_merchant.bio
+  tags: [shop]

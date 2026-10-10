@@ -1,0 +1,18 @@
+id: alara
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: alara.greet
+    choices:
+      - {text_key: alara.ask_controls, goto: controls}
+      - {text_key: alara.ask_movement, goto: movement}
+      - {text_key: alara.leave}
+  controls:
+    text_key: alara.controls
+    choices:
+      - {text_key: alara.understand, goto: greet}
+  movement:
+    text_key: alara.movement
+    choices:
+      - {text_key: alara.understand, goto: greet}

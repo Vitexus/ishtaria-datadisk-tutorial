@@ -1,0 +1,92 @@
+# Tutorial World - English Translation
+
+# Places
+place.tutorial_village: Tutorial Village
+place.tutorial_graveyard: Tutorial Graveyard
+
+# Music
+music.tutorial: Tutorial Theme
+
+# NPC Names and Bios
+npc.alara: Alara
+npc.alara.bio: Your guide to basic movement and UI
+npc.crafton: Crafton
+npc.crafton.bio: The gathering and crafting expert
+npc.valerian: Valerian
+npc.valerian.bio: Combat instructor and hunting expert
+npc.hammerin: Hammerin
+npc.hammerin.bio: The building master
+npc.merchan: Merchan
+npc.merchan.bio: Trading and economy expert
+npc.arcanis: Arcanis
+npc.arcanis.bio: The archmage
+npc.portalus: Portalus
+npc.portalus.bio: The portal keeper
+npc.tutorial_merchant: Tutorial Merchant
+npc.tutorial_merchant.bio: A friendly merchant selling basic supplies
+
+# Alara Dialogue
+alara.greet: Welcome to Ishtaria! I am Alara, your first tutor.
+alara.ask_controls: How do I move and interact?
+alara.ask_movement: How does movement work?
+alara.leave: I will explore on my own
+alara.controls: Use WASD to move, mouse to look around, and E to interact.
+alara.understand: I understand
+alara.movement: Walking uses stamina slowly. Running uses it faster. Rest to restore.
+
+# Crafton Dialogue
+crafton.greet: I am Crafton. I teach gathering and crafting.
+crafton.ask_gathering: How do I gather resources?
+crafton.ask_crafting: How do I craft items?
+crafton.leave: Maybe later
+crafton.gathering: Use tools like axe or pickaxe on trees and rocks.
+crafton.crafting: Combine resources at stations like campfire or anvil.
+crafton.understand: I understand
+
+# Valerian Dialogue
+valerian.greet: I am Valerian, combat instructor.
+valerian.ask_combat: How does combat work?
+valerian.leave: Not now
+valerian.combat: Attack with left-click, block with right-click and a shield.
+valerian.understand: I understand
+
+# Hammerin Dialogue
+hammerin.greet: I am Hammerin. I teach building.
+hammerin.ask_building: How do I build and place objects?
+hammerin.leave: Later
+hammerin.building: Open inventory, drag items to the placement indicator.
+hammerin.understand: I understand
+
+# Merchan Dialogue
+merchan.greet: I am Merchan. I explain trading and economy.
+merchan.ask_trading: How does trading work?
+merchan.leave: I will look around
+merchan.trading: Merchants buy and sell. Players can trade with each other.
+merchan.understand: I understand
+
+# Arcanis Dialogue
+arcanis.greet: I am Arcanis. I teach magic.
+arcanis.ask_magic: How does magic work?
+arcanis.leave: Perhaps later
+arcanis.magic: Mana regenerates over time. Spells are learned from scrolls.
+arcanis.understand: I understand
+
+# Portalus Dialogue
+portalus.greet: I am Portalus. I explain portals.
+portalus.ask_portals: What are portals?
+portalus.leave: Not now
+portalus.portals: Portals connect different worlds in the federation.
+portalus.understand: I understand
+
+# Merchant Dialogue
+tutorial_merchant.greet: Welcome to my shop! How can I help you?
+tutorial_merchant.browse: Show me your wares
+tutorial_merchant.leave: Just looking
+tutorial_merchant.wares: I have bread, rope, water, and other supplies.
+tutorial_merchant.back: Back to choices
+
+# Quest Text
+quest.tutorial_welcome: Tutorial Welcome
+quest.tutorial.start: Talk to all the tutors to learn about Ishtaria
+quest.tutorial.meet_tutors: Meet each tutor and learn their lessons
+quest.tutorial.complete: Tutorial complete! You are ready to explore.

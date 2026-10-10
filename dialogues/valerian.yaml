@@ -1,0 +1,13 @@
+id: valerian
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: valerian.greet
+    choices:
+      - {text_key: valerian.ask_combat, goto: combat}
+      - {text_key: valerian.leave}
+  combat:
+    text_key: valerian.combat
+    choices:
+      - {text_key: valerian.understand, goto: greet}

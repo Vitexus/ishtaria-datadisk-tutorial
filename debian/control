@@ -1,0 +1,24 @@
+Source: ishtaria-datadisk-tutorial
+Section: games
+Priority: optional
+Maintainer: Vítězslav Dvořák <cybervitexus@gmail.com>
+Build-Depends: debhelper-compat (= 13), python3, python3-yaml,
+ python3-piper-tts <!pkg.ishtaria-datadisk-tutorial.novoice>,
+ ffmpeg <!pkg.ishtaria-datadisk-tutorial.novoice>,
+ claude-tts-cz <!pkg.ishtaria-datadisk-tutorial.novoice>
+Standards-Version: 4.7.0
+Homepage: https://github.com/VitexSoftware/ishtaria-datadisk-tutorial
+Rules-Requires-Root: no
+
+Package: ishtaria-datadisk-tutorial
+Architecture: all
+Depends: ${misc:Depends}, ishtaria-server
+Description: Tutorial story datadisk for Ishtaria worlds
+ A comprehensive tutorial datadisk demonstrating all implemented Ishtaria features.
+ Learn movement, gathering, crafting, combat, trading, building, magic, and more
+ in a guided experience through Tutorial Island.
+ .
+ The datadisk is installed to /usr/share/ishtaria/datadisks/tutorial and is
+ taken into account by worlds generated with it selected in ishtaria-admin.
+ .
+ Open source tutorial content - CC BY-SA 4.0 license.

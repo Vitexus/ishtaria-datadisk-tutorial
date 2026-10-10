@@ -1,0 +1,92 @@
+# Tutorial World - Czech Translation
+
+# Places
+place.tutorial_village: Výuková Vesnice
+place.tutorial_graveyard: Výukový Hřbitov
+
+# Music
+music.tutorial: Výukové Téma
+
+# NPC Names and Bios
+npc.alara: Alara
+npc.alara.bio: Vaše průvodkyně základními ovládáním a UI
+npc.crafton: Sběratel
+npc.crafton.bio: Odborník na sběr a řemesla
+npc.valerian: Valerian
+npc.valerian.bio: Instruktor boje a lovu
+npc.hammerin: Kladívko
+npc.hammerin.bio: Mistr stavitel
+npc.merchan: Obchodník
+npc.merchan.bio: Odborník na obchod a ekonomiku
+npc.arcanis: Arkanie
+npc.arcanis.bio: Archimágyně
+npc.portalus: Portálik
+npc.portalus.bio: Strážce portálů
+npc.tutorial_merchant: Výukový Obchodník
+npc.tutorial_merchant.bio: Přátelský obchodník prodávající základní zásoby
+
+# Alara Dialogue
+alara.greet: Vítejte v Ishtarii! Jsem Alara, vaše první učitelka.
+alara.ask_controls: Jak se pohybuji a interaguji?
+alara.ask_movement: Jak funguje pohyb?
+alara.leave: Budu prozkoumávat sám
+alara.controls: Použijte WASD pro pohyb, myš pro rozhlédnutí a E pro interakci.
+alara.understand: Rozumím
+alara.movement: Chůze pomalu spotřebovává vytrvalost. Běh ji spotřebovává rychleji. Odpočin si pro obnovu.
+
+# Crafton Dialogue
+crafton.greet: Jsem Sběratel. Učím sběr a řemesla.
+crafton.ask_gathering: Jak sbírat zdroje?
+crafton.ask_crafting: Jak vyrábět předměty?
+crafton.leave: Možná později
+crafton.gathering: Používejte nástroje jako sekera nebo krumpáč na stromy a skály.
+crafton.crafting: Kombinujte zdroje u stanic jako táborák nebo kovadlina.
+crafton.understand: Rozumím
+
+# Valerian Dialogue
+valerian.greet: Jsem Valerian, učitel boje.
+valerian.ask_combat: Jak funguje boj?
+valerian.leave: Ne teď
+valerian.combat: Útočte levým tlačítkem, blokujte pravým tlačítkem se štítem.
+valerian.understand: Rozumím
+
+# Hammerin Dialogue
+hammerin.greet: Jsem Kladívko. Učím stavbu.
+hammerin.ask_building: Jak stavět a umisťovat předměty?
+hammerin.leave: Později
+hammerin.building: Otevřete inventář, přetáhněte položky na ukazatel umístění.
+hammerin.understand: Rozumím
+
+# Merchan Dialogue
+merchan.greet: Jsem Obchodník. Vysvětluji obchod a ekonomiku.
+merchan.ask_trading: Jak funguje obchod?
+merchan.leave: Rozhlédnu se
+merchan.trading: Obchodníci nakupují a prodávají. Hráči mohou obchodovat mezi sebou.
+merchan.understand: Rozumím
+
+# Arcanis Dialogue
+arcanis.greet: Jsem Arkanie. Učím magii.
+arcanis.ask_magic: Jak funguje magie?
+arcanis.leave: Možná později
+arcanis.magic: Mana se regeneruje v průběhu času. Kouzla se učí ze svitků.
+arcanis.understand: Rozumím
+
+# Portalus Dialogue
+portalus.greet: Jsem Portálik. Vysvětluji portály.
+portalus.ask_portals: Co jsou to portály?
+portalus.leave: Ne teď
+portalus.portals: Portály spojují různé světy ve federaci.
+portalus.understand: Rozumím
+
+# Merchant Dialogue
+tutorial_merchant.greet: Vítejte v mém obchodě! Jak vám mohu pomoci?
+tutorial_merchant.browse: Ukažte mi své zboží
+tutorial_merchant.leave: Jen se dívám
+tutorial_merchant.wares: Mám chléb, lano, vodu a další zásoby.
+tutorial_merchant.back: Zpět k výběru
+
+# Quest Text
+quest.tutorial_welcome: Úvodní Tutoriál
+quest.tutorial.start: Promluvte si se všemi učiteli a naučte se o Ishtarii
+quest.tutorial.meet_tutors: Seznámíte se s každým učitelem a naučte se jejich lekce
+quest.tutorial.complete: Tutoriál dokončen! Jste připraveni prozkoumávat.

@@ -1,0 +1,15 @@
+ishtaria-datadisk-tutorial (0.1.0-1) unstable; urgency=medium
+
+  * Initial release of the Tutorial World datadisk.
+  * Demonstrates all implemented Ishtaria features:
+    - Movement and UI basics
+    - Gathering and crafting
+    - Combat and hunting
+    - Building and placement
+    - Trading and economy
+    - Magic system
+    - Federation and portals
+  * Includes 8 tutorial zones with specialized NPC tutors
+  * English and Czech localization
+
+ -- Vítězslav Dvořák <cybervitexus@gmail.com>  Sat, 10 Oct 2026 00:00:00 +0200

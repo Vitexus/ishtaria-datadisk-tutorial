@@ -1,0 +1,13 @@
+id: merchan
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: merchan.greet
+    choices:
+      - {text_key: merchan.ask_trading, goto: trading}
+      - {text_key: merchan.leave}
+  trading:
+    text_key: merchan.trading
+    choices:
+      - {text_key: merchan.understand, goto: greet}

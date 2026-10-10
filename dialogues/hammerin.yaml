@@ -1,0 +1,13 @@
+id: hammerin
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: hammerin.greet
+    choices:
+      - {text_key: hammerin.ask_building, goto: building}
+      - {text_key: hammerin.leave}
+  building:
+    text_key: hammerin.building
+    choices:
+      - {text_key: hammerin.understand, goto: greet}

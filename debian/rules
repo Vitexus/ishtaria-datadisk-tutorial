@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	# Validate datadisk schema
+	python3 ../ishtaria-protocol/tests/validate_datadisk.py .
+	
+	# Render voices if not building novoice package
+ifneq (,$(filter-out novoice,$(DEB_BUILD_PROFILES)))
+	ISHTARIA_VOICES="$(HOME)/.local/share/Steam/steamapps/common/Proton Voice Files" \
+	  python3 tools/render_voices.py --out debian/ishtaria-datadisk-tutorial/ --jobs $(shell nproc)
+endif
+
+override_dh_auto_install:
+	# Install datadisk files
+	mkdir -p debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial
+	cp -a datadisk.yaml places npcs dialogues quests lore i18n debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/
+	cp -a music debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/ 2>/dev/null || true
+	
+	# Install media (portraits, cover, voices)
+	mkdir -p debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/media
+	cp -a media/portraits media/cover debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/media/ 2>/dev/null || true
+	cp -a debian/ishtaria-datadisk-tutorial/media/voice debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/media/ 2>/dev/null || true

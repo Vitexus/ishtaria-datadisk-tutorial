@@ -1,0 +1,13 @@
+id: arcanis
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: arcanis.greet
+    choices:
+      - {text_key: arcanis.ask_magic, goto: magic}
+      - {text_key: arcanis.leave}
+  magic:
+    text_key: arcanis.magic
+    choices:
+      - {text_key: arcanis.understand, goto: greet}

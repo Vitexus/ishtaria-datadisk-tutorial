@@ -1,0 +1,10 @@
+/debian/.debhelper
+/debian/ishtaria-datadisk-tutorial/
+/debian/files
+/debian/*.substvars
+/debian/debhelper-build-stamp
+__pycache__/
+# Reference downloads and source material
+/source/
+/debian/voice-build/
+/build/

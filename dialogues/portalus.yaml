@@ -1,0 +1,13 @@
+id: portalus
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: portalus.greet
+    choices:
+      - {text_key: portalus.ask_portals, goto: portals}
+      - {text_key: portalus.leave}
+  portals:
+    text_key: portalus.portals
+    choices:
+      - {text_key: portalus.understand, goto: greet}

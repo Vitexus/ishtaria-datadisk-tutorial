@@ -1,0 +1,5 @@
+# Tutorial background music tracks
+- id: midpoint
+  file: media/music/midpoint.ogg
+  title_key: music.tutorial
+  loop: true

@@ -1,0 +1,7 @@
+id: tutorial_welcome
+title_key: quest.tutorial_welcome
+start_stage: start
+stages:
+  start: {text_key: quest.tutorial.start}
+  meet_tutors: {text_key: quest.tutorial.meet_tutors}
+  complete: {text_key: quest.tutorial.complete, final: true}

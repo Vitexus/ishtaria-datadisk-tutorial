@@ -1,0 +1,18 @@
+id: crafton
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: crafton.greet
+    choices:
+      - {text_key: crafton.ask_gathering, goto: gathering}
+      - {text_key: crafton.ask_crafting, goto: crafting}
+      - {text_key: crafton.leave}
+  gathering:
+    text_key: crafton.gathering
+    choices:
+      - {text_key: crafton.understand, goto: greet}
+  crafting:
+    text_key: crafton.crafting
+    choices:
+      - {text_key: crafton.understand, goto: greet}
