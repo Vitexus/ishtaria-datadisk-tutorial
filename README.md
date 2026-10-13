@@ -1,6 +1,6 @@
 # ishtaria-datadisk-tutorial
 
-Tutorial story datadisk for [Ishtaria](https://github.com/VitexSoftware/ishtaria-docs).
+Tutorial story datadisk for [Ishtaria](https://git.vitexsoftware.com/Ishtaria/ishtaria-docs).
 **Open source tutorial content** - CC BY-SA 4.0 license. This datadisk demonstrates all
 implemented game features in a guided tutorial experience.
 
