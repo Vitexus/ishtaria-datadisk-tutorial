@@ -99,7 +99,9 @@ The tutorial does not ship a real planet and does not fix the player's body. A d
 ## Spoken Lines
 
 `dpkg-buildpackage` runs `tools/render_voices.py`: every NPC line is synthesized with Piper
-and encoded to OGG Vorbis in `media/voice/<language>/<text_key>.ogg`.
+and encoded to OGG Vorbis in `media/voice/<language>/<text_key>.ogg`. Build-Depends include
+`piper-voice-cs-cz-jirka-medium` and `piper-voice-en-us-libritts-r-medium`
+(`/usr/share/piper/voices/`).
 
 `dpkg-buildpackage -P pkg.ishtaria-datadisk-tutorial.novoice` skips the rendering.
 

@@ -5,7 +5,8 @@ Maintainer: Vítězslav Dvořák <cybervitexus@gmail.com>
 Build-Depends: debhelper-compat (= 13), python3, python3-yaml,
  python3-piper-tts <!pkg.ishtaria-datadisk-tutorial.novoice>,
  ffmpeg <!pkg.ishtaria-datadisk-tutorial.novoice>,
- claude-tts-cz <!pkg.ishtaria-datadisk-tutorial.novoice>
+ piper-voice-cs-cz-jirka-medium <!pkg.ishtaria-datadisk-tutorial.novoice>,
+ piper-voice-en-us-libritts-r-medium <!pkg.ishtaria-datadisk-tutorial.novoice>
 Standards-Version: 4.7.0
 Homepage: https://git.vitexsoftware.com/Ishtaria/ishtaria-datadisk-tutorial
 Rules-Requires-Root: no

@@ -13,6 +13,28 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+SYSTEM_VOICE_DIRS = [
+    "/usr/share/piper/voices",
+    "/usr/share/piper-voices",
+    "/usr/share/ishtaria/piper-voices",
+    "/usr/share/claude-tts-cz/piper-voices",
+    str(Path.home() / ".cache/noveknihy/piper"),
+]
+
+
+def resolve_model(name: str) -> str:
+    """Return path to `<name>.onnx` from $ISHTARIA_VOICES or system voice dirs."""
+    candidates = []
+    if os.environ.get("ISHTARIA_VOICES"):
+        candidates.append(Path(os.environ["ISHTARIA_VOICES"]))
+    candidates.extend(Path(d) for d in SYSTEM_VOICE_DIRS)
+    for directory in candidates:
+        model = directory / f"{name}.onnx"
+        if model.is_file():
+            return str(model)
+    return name
+
+
 # Character to voice model mapping
 VOICE_MODELS = {
     "en": {
@@ -119,7 +141,7 @@ def process_text_key(dialogue_id: str, node_id: str, text_key: str, text: str,
                      character: str, lang: str, models: dict, output_base: Path) -> bool:
     """Process a single text key and render it."""
     char_config = models.get(character, models.get('tutorial_merchant', {}))
-    model_name = char_config.get('model', f'{lang}_US-libritts_r-medium')
+    model_name = resolve_model(char_config.get('model', f'{lang}_US-libritts_r-medium'))
     pitch = char_config.get('pitch', 1.0)
     speed = char_config.get('speed', 1.0)
     

@@ -6,10 +6,9 @@ override_dh_auto_build:
 	# Validate datadisk schema
 	python3 ../ishtaria-protocol/tests/validate_datadisk.py .
 	
-	# Render voices if not building novoice package
-ifneq (,$(filter-out novoice,$(DEB_BUILD_PROFILES)))
-	ISHTARIA_VOICES="$(HOME)/.local/share/Steam/steamapps/common/Proton Voice Files" \
-	  python3 tools/render_voices.py --out debian/ishtaria-datadisk-tutorial/ --jobs $(shell nproc)
+	# Render voices unless building with -Ppkg.ishtaria-datadisk-tutorial.novoice
+ifeq (,$(filter pkg.ishtaria-datadisk-tutorial.novoice,$(DEB_BUILD_PROFILES)))
+	python3 tools/render_voices.py --out debian/ishtaria-datadisk-tutorial/ --jobs $(shell nproc)
 endif
 
 override_dh_auto_install:
