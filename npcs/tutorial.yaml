@@ -73,3 +73,41 @@
   portrait: media/portraits/merchant.jpg
   bio_key: npc.tutorial_merchant.bio
   tags: [shop]
+
+# People who walk. A shopkeeper cannot: a tag shop:* keeps a merchant at the stall.
+- id: surveyor
+  name_key: npc.surveyor
+  place: surveyors_rise
+  character: {pack: protagonists, skin: criminalMaleA}
+  dialogue: surveyor
+  bio_key: npc.surveyor.bio
+  size: 1.3
+  movement: {kind: patrol, speed_m_s: 1.1, pause_s: 4, waypoints: [[12, 0], [12, 12], [0, 12], [0, 0]]}
+  tags: [tutor]
+
+- id: apprentice
+  name_key: npc.apprentice
+  place: surveyors_rise
+  character: {pack: survivors, skin: survivorFemaleA}
+  dialogue: villagers
+  bio_key: npc.apprentice.bio
+  movement: {kind: wander, radius_m: 20, speed_m_s: 1.2, pause_s: 5}
+  tags: [tutor]
+
+- id: villager_elder
+  name_key: npc.villager_elder
+  place: tutorial_village
+  character: {pack: retro, skin: humanMaleA}
+  dialogue: villagers
+  bio_key: npc.villager_elder.bio
+  movement: {kind: wander, radius_m: 18, speed_m_s: 0.5, pause_s: 8}
+  tags: [crowd, elder]
+
+- id: villager_child
+  name_key: npc.villager_child
+  place: tutorial_village
+  character: {pack: protagonists, skin: skaterMaleA}
+  dialogue: villagers
+  bio_key: npc.villager_child.bio
+  movement: {kind: wander, radius_m: 24, speed_m_s: 2.0, pause_s: 2}
+  tags: [crowd, child]

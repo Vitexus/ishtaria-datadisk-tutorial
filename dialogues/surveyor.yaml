@@ -1,0 +1,29 @@
+id: surveyor
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: surveyor.greet
+    choices:
+      - {text_key: surveyor.ask_locate, goto: locate}
+      - {text_key: surveyor.ask_patch, goto: patch}
+      - {text_key: surveyor.ask_crowd, goto: crowd}
+      - {text_key: surveyor.ask_planet, goto: planet}
+      - {text_key: surveyor.leave}
+  locate:
+    text_key: surveyor.locate
+    choices:
+      - {text_key: surveyor.understand, goto: greet}
+  patch:
+    text_key: surveyor.patch
+    choices:
+      - {text_key: surveyor.understand, goto: greet}
+  crowd:
+    text_key: surveyor.crowd
+    choices:
+      - {text_key: surveyor.understand, goto: greet}
+  planet:
+    text_key: surveyor.planet
+    choices:
+      - {text_key: surveyor.seen, effects: [{set_stage: {quest: tutorial_disk_features, stage: done}}], goto: greet}
+      - {text_key: surveyor.understand, goto: greet}

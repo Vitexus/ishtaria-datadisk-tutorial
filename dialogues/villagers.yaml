@@ -1,0 +1,9 @@
+# One greeting shared by the apprentice and the two villagers who walk the village.
+id: villagers
+status: reviewed
+start: greet
+nodes:
+  greet:
+    text_key: villagers.greet
+    choices:
+      - {text_key: villagers.leave}

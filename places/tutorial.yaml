@@ -22,3 +22,46 @@
     max_slope_deg: 15
     near:
       - {place: tutorial_village, min_m: 500, max_m: 1500}
+
+# Northeast of the village, where the disk measured a site rather than searching the whole planet.
+# The rectangle of ground is a landscape patch, and the plants and animals are this place's own list.
+- id: surveyors_rise
+  kind: landmark
+  name_key: place.surveyors_rise
+  radius_m: 80
+  locate: {from: tutorial_village, bearing_deg: 45, distance_m: 800, tolerance_m: 250}
+  terrain:
+    heightmap: media/terrain/surveyors_rise.png
+    extent_m: [400, 400]
+    feather_m: 40
+  music: midpoint
+  music_radius_m: 120
+  wildlife:
+    radius_m: 180
+    density: 1.4
+    flora:
+      - {id: nature.tree_pineTallA, weight: 4}
+      - {id: nature.tree_pineRoundA, weight: 2}
+      - {id: nature.plant_bushSmall, weight: 3}
+      - {id: nature.flower_redA, weight: 2}
+    fauna:
+      - {id: animal.deer, weight: 3}
+      - {id: animal.fox, weight: 2}
+      - {id: animal.sheep, weight: 2}
+  requires:
+    height_m: {min: 0, max: 800}
+    max_slope_deg: 25
+
+# A surveyed point: tolerance zero, so the cairn stands exactly 40 m east of the rise.
+# The model is a structure of this disk. Its slope requirement is advice, not a search.
+- id: survey_cairn
+  kind: building
+  name_key: place.survey_cairn
+  parent: surveyors_rise
+  radius_m: 6
+  locate: {from: surveyors_rise, bearing_deg: 90, distance_m: 40, tolerance_m: 0}
+  structure:
+    model: media/models/survey_cairn.glb
+    visible_m: 400
+  requires:
+    max_slope_deg: 30

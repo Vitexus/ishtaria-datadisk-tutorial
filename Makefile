@@ -24,7 +24,7 @@ test:
 stage:
 	rm -rf $(STAGE)/tutorial
 	mkdir -p $(STAGE)/tutorial
-	cp -a datadisk.yaml places npcs dialogues quests lore i18n $(STAGE)/tutorial/
+	cp -a datadisk.yaml places npcs dialogues quests i18n music media $(STAGE)/tutorial/
 	@echo "staged tutorial datadisk"
 
 $(BUILD)/server.toml:

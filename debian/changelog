@@ -1,3 +1,14 @@
+ishtaria-datadisk-tutorial (0.2.0-1) unstable; urgency=medium
+
+  * Teach the story-disk features the Gilgamesh disk introduced, on a procedural world:
+    a measured site, a surveyed cairn, a landscape patch, a walkable structure,
+    a wildlife overlay, a patrol, wanderers who share a greeting, a taller body,
+    and cover and ambient music.
+  * Leave the planet procedural and the character choice free, so this disk can
+    share a world with one that defines a real planet.
+
+ -- Vítězslav Dvořák <cybervitexus@gmail.com>  Sun, 18 Oct 2026 22:00:00 +0200
+
 ishtaria-datadisk-tutorial (0.1.0-1) unstable; urgency=medium
 
   * Initial release of the Tutorial World datadisk.

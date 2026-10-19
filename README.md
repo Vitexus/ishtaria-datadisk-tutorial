@@ -65,6 +65,15 @@ The Tutorial World is designed as a single island with multiple zones, each teac
 - **Portal Plaza**: Federation portal demonstration
 - **Tutor Portalus**: Portal and federation explainations
 
+### Zone 8: Story-disk placement
+- **Surveyor's Rise**: measured from the village (`locate`), with a landscape patch and a wildlife overlay
+- **Survey Cairn**: a surveyed point (`tolerance_m: 0`) and a walkable structure shipped with the disk
+- **Surveyor**: patrols a square, stands taller than the model (`size`), and explains the lesson
+- **Apprentice, elder and child**: wander; the three share one short greeting. The child is fast enough that the client plays Run
+- The cover jingle and the music away from every place are the disk's `cover_music` and `ambient_music`
+
+The tutorial does not ship a real planet and does not fix the player's body. A disk that does (`world.terrain`, `geo`, `player_character`, `player_model`, `player_body`) cannot be combined with another planet disk, and it takes the character choice away. Surveyor explains those, and this disk stays combinable with one.
+
 ## Features Demonstrated
 
 - Movement: walking, running, stamina consumption
@@ -83,6 +92,9 @@ The Tutorial World is designed as a single island with multiple zones, each teac
 - Chat: communication with other players
 - Graveyards: permanent memorials
 - Hall of Fame: achievements and scores
+- Story placement: a site measured from another place, a surveyed point, a landscape patch, a structure, a wildlife overlay
+- Walking characters: a patrol, wanderers who share one dialogue, and a taller body
+- Disk music: a cover jingle and the ambient track heard outside every place
 
 ## Spoken Lines
 

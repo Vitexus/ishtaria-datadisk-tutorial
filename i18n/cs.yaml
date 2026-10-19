@@ -3,6 +3,8 @@
 # Places
 place.tutorial_village: Výuková Vesnice
 place.tutorial_graveyard: Výukový Hřbitov
+place.surveyors_rise: Zeměměřičův Vrch
+place.survey_cairn: Zeměměřičská Mohyla
 
 # Music
 music.tutorial: Výukové Téma
@@ -24,6 +26,14 @@ npc.portalus: Portálik
 npc.portalus.bio: Strážce portálů
 npc.tutorial_merchant: Výukový Obchodník
 npc.tutorial_merchant.bio: Přátelský obchodník prodávající základní zásoby
+npc.surveyor: Zeměměřič
+npc.surveyor.bio: Obchází čtverec na vrchu a vysvětluje, co umí příběhový disk umístit
+npc.apprentice: Učedník
+npc.apprentice.bio: Toulá se po vrchu a zdraví stejně jako vesničané
+npc.villager_elder: Starší
+npc.villager_elder.bio: Pomalu prochází vesnicí
+npc.villager_child: Dítě
+npc.villager_child.bio: Mezi zastávkami po vesnici běhá
 
 # Alara Dialogue
 alara.greet: Vítejte v Ishtarii! Jsem Alara, vaše první učitelka.
@@ -85,8 +95,30 @@ tutorial_merchant.leave: Jen se dívám
 tutorial_merchant.wares: Mám chléb, lano, vodu a další zásoby.
 tutorial_merchant.back: Zpět k výběru
 
+# Zeměměřič
+surveyor.greet: Jsem Zeměměřič. Tento vrch ukazuje, co umí příběhový disk umístit.
+surveyor.ask_locate: Jak se sem ten vrch dostal?
+surveyor.ask_patch: Čím je zvláštní zem pod nohama?
+surveyor.ask_crowd: Proč tu lidé chodí?
+surveyor.ask_planet: A co skutečná planeta a dané tělo?
+surveyor.leave: Rozhlédnu se
+surveyor.understand: Rozumím
+surveyor.seen: Už jsem to viděl
+surveyor.locate: Disk naměřil 800 metrů na severovýchod od vesnice a vzal nejbližší vyhovující zem. Mohyla je zaměřený bod, takže stojí přesně 40 metrů východně ode mě. Její kameny jsou model přibalený k disku a dá se k nim dojít.
+surveyor.patch: Obdélník pod vašima nohama je krajinná záplata. Výšky se měří od místa, kde toto místo stojí, takže stejná záplata sedne na kterýkoli svět. Borovice, keře, jeleni, lišky a ovce jsou vlastní seznam tohoto místa, ne obvyklá skladba krajiny.
+surveyor.crowd: Obcházím čtverec a na každém rohu se zastavím. Učedník se toulá. Starší a dítě ve vesnici sdílejí jeden pozdrav a chodí každý svou rychlostí. Postava může také stát vyšší než model, jako já.
+surveyor.planet: Disk může přibalit celou planetu jako výškovou mapu a masku vody a místa připnout zeměpisnou šířkou a délkou. Může také zvolit tělo, kterým hrajete, jak je vysoké, jak moc bolí pád, a model místo vzhledu z tvůrce postavy. Tento tutoriál nechává planetu procedurální a vzhled na vás, takže se o svět může dělit s takovým diskem. Nápěv u obalu a venku na pláních je vlastní hudba disku.
+
+# Vesničané
+villagers.greet: Dobrý den. Jen tudy procházím.
+villagers.leave: Na shledanou
+
 # Quest Text
 quest.tutorial_welcome: Úvodní Tutoriál
 quest.tutorial.start: Promluvte si se všemi učiteli a naučte se o Ishtarii
 quest.tutorial.meet_tutors: Seznámíte se s každým učitelem a naučte se jejich lekce
 quest.tutorial.complete: Tutoriál dokončen! Jste připraveni prozkoumávat.
+quest.tutorial_disk_features: Lekce příběhového disku
+quest.disk_features.walk: Dojděte na Zeměměřičův vrch, na severovýchod od vesnice.
+quest.disk_features.listen: Promluvte si se Zeměměřičem o naměřeném místě, záplatě a lidech, kteří chodí.
+quest.disk_features.done: Viděli jste, co umí příběhový disk umístit.

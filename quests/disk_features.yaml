@@ -1,0 +1,14 @@
+id: tutorial_disk_features
+title_key: quest.tutorial_disk_features
+start_place: surveyors_rise
+start_stage: walk
+stages:
+  walk:
+    text_key: quest.disk_features.walk
+    reach: {place: surveyors_rise, radius_m: 40, goto: listen}
+  listen:
+    text_key: quest.disk_features.listen
+    guide: surveyors_rise
+  done:
+    text_key: quest.disk_features.done
+    final: true

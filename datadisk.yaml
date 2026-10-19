@@ -1,11 +1,17 @@
 id: tutorial
-version: 0.1.0
+version: 0.2.0
 cover: media/cover/cover.jpg
+# The same lesson track serves as the cover jingle and the music heard away from every place.
+cover_music: midpoint
+ambient_music: midpoint
 name: Tutorial World
 description: >
   A comprehensive tutorial datadisk demonstrating all implemented Ishtaria features.
-  Learn movement, gathering, crafting, combat, trading, building, magic, and more in
-  a guided experience through Tutorial Island.
+  Learn movement, gathering, crafting, combat, trading, building, magic, and the
+  story-disk features a place can carry: a measured site, a surveyed point, a landscape
+  patch, a walkable structure, a wildlife overlay, and people who walk. The planet stays
+  procedural and you still choose your character, so this disk can share a world with one
+  that defines a real planet.
 requires_ruleset: "1"
 license: CC BY-SA 4.0
 attribution: Ishtaria Tutorial World - CC BY-SA 4.0

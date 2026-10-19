@@ -3,6 +3,8 @@
 # Places
 place.tutorial_village: Tutorial Village
 place.tutorial_graveyard: Tutorial Graveyard
+place.surveyors_rise: Surveyor's Rise
+place.survey_cairn: Survey Cairn
 
 # Music
 music.tutorial: Tutorial Theme
@@ -24,6 +26,14 @@ npc.portalus: Portalus
 npc.portalus.bio: The portal keeper
 npc.tutorial_merchant: Tutorial Merchant
 npc.tutorial_merchant.bio: A friendly merchant selling basic supplies
+npc.surveyor: Surveyor
+npc.surveyor.bio: Walks a square on the rise and explains what a story disk can place
+npc.apprentice: Apprentice
+npc.apprentice.bio: Wanders the rise and shares the villagers' greeting
+npc.villager_elder: Elder
+npc.villager_elder.bio: Walks the village slowly
+npc.villager_child: Child
+npc.villager_child.bio: Runs between pauses in the village
 
 # Alara Dialogue
 alara.greet: Welcome to Ishtaria! I am Alara, your first tutor.
@@ -85,8 +95,30 @@ tutorial_merchant.leave: Just looking
 tutorial_merchant.wares: I have bread, rope, water, and other supplies.
 tutorial_merchant.back: Back to choices
 
+# Surveyor
+surveyor.greet: I am Surveyor. This rise is here to show what a story disk can place.
+surveyor.ask_locate: How did this rise get here?
+surveyor.ask_patch: What is special about the ground?
+surveyor.ask_crowd: Why are people walking?
+surveyor.ask_planet: What about a real planet and a fixed body?
+surveyor.leave: I will look around
+surveyor.understand: I understand
+surveyor.seen: I have seen it
+surveyor.locate: The disk measured 800 metres northeast of the village and took the nearest fitting ground. The cairn is a surveyed point, so it stands exactly 40 metres east of me. Its stones are a model shipped with the disk, and you can walk up to them.
+surveyor.patch: The rectangle under your feet is a landscape patch. Its heights are measured from the spot where this place stands, so the same patch can sit on any world. The pines, bushes, deer, foxes and sheep here are this place's own list, not the usual mix of the land.
+surveyor.crowd: I patrol a square and pause at each corner. The apprentice wanders. The elder and the child in the village share one greeting and walk at their own speeds. A character can also stand taller than the model, as I do.
+surveyor.planet: A disk may ship a whole planet as a height map and a water mask, and pin places by latitude and longitude. It may also choose the body you play, how tall it is, how hard a fall hurts, and a model in place of the creator's look. This tutorial leaves the planet procedural and lets you choose your character, so it can share a world with such a disk. The tune at the cover and out on the plains is the disk's own music.
+
+# Villagers
+villagers.greet: Good day. I am only passing by.
+villagers.leave: Goodbye
+
 # Quest Text
 quest.tutorial_welcome: Tutorial Welcome
 quest.tutorial.start: Talk to all the tutors to learn about Ishtaria
 quest.tutorial.meet_tutors: Meet each tutor and learn their lessons
 quest.tutorial.complete: Tutorial complete! You are ready to explore.
+quest.tutorial_disk_features: Story disk lesson
+quest.disk_features.walk: Walk to Surveyor's Rise, northeast of the village.
+quest.disk_features.listen: Talk to Surveyor about the measured site, the patch and the people who walk.
+quest.disk_features.done: You have seen what a story disk can place.

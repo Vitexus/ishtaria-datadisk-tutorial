@@ -15,8 +15,8 @@ Architecture: all
 Depends: ${misc:Depends}, ishtaria-server
 Description: Tutorial story datadisk for Ishtaria worlds
  A comprehensive tutorial datadisk demonstrating all implemented Ishtaria features.
- Learn movement, gathering, crafting, combat, trading, building, magic, and more
- in a guided experience through Tutorial Island.
+ Learn movement, gathering, crafting, combat, trading, building, magic, and the
+ story-disk features a place can carry, in a guided experience through Tutorial Island.
  .
  The datadisk is installed to /usr/share/ishtaria/datadisks/tutorial and is
  taken into account by worlds generated with it selected in ishtaria-admin.
