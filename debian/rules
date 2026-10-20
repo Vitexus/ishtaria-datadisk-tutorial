@@ -14,7 +14,7 @@ endif
 override_dh_auto_install:
 	# Install datadisk files
 	mkdir -p debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial
-	cp -a datadisk.yaml places npcs dialogues quests i18n music media debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/
+	cp -a datadisk.yaml knowledge.yaml places npcs dialogues quests i18n music media debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/
 	
 	# Install media (portraits, cover, voices)
 	mkdir -p debian/ishtaria-datadisk-tutorial/usr/share/ishtaria/datadisks/tutorial/media

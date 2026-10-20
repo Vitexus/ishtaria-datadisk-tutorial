@@ -122,3 +122,8 @@ quest.tutorial_disk_features: Lekce příběhového disku
 quest.disk_features.walk: Dojděte na Zeměměřičův vrch, na severovýchod od vesnice.
 quest.disk_features.listen: Promluvte si se Zeměměřičem o naměřeném místě, záplatě a lidech, kteří chodí.
 quest.disk_features.done: Viděli jste, co umí příběhový disk umístit.
+
+# Znalostní karty
+knowledge.hammerin.title: Stavitel
+knowledge.hammerin.text: "Před vynálezem strojů stála stavba na svalech a důvtipném náčiní. Kameny a trámy zvedal šlapací jeřáb: dělníci šlapali uvnitř velkého dřevěného kola a otáčející se hřídel navíjela lano. Mistři stavitelé práci plánovali a zedníci, tesaři i pomocníci zvedali zdi, jejichž dokončení často trvalo celé generace."
+knowledge.hammerin.credit: "Pieter Bruegel starší, Babylonská věž (detail, kolem 1563), Kunsthistorisches Museum Vídeň. Volné dílo, přes Wikimedia Commons."

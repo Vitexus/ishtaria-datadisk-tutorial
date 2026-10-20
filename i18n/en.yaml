@@ -122,3 +122,8 @@ quest.tutorial_disk_features: Story disk lesson
 quest.disk_features.walk: Walk to Surveyor's Rise, northeast of the village.
 quest.disk_features.listen: Talk to Surveyor about the measured site, the patch and the people who walk.
 quest.disk_features.done: You have seen what a story disk can place.
+
+# Knowledge cards
+knowledge.hammerin.title: The builder
+knowledge.hammerin.text: "Before machines, a building site ran on muscle and clever tackle. A treadwheel crane lifted stone and timber: workers walked inside a great wooden wheel, and the turning axle wound the rope. Master builders planned the work, while masons, carpenters and labourers raised walls that often took generations to finish."
+knowledge.hammerin.credit: "Pieter Bruegel the Elder, The Tower of Babel (detail, about 1563), Kunsthistorisches Museum Vienna. Public domain, via Wikimedia Commons."

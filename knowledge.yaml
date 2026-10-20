@@ -1,0 +1,7 @@
+# What the characters tell about themselves ("Tell me about yourself"): a short text, one picture and the article to read.
+- id: hammerin
+  title_key: knowledge.hammerin.title
+  text_key: knowledge.hammerin.text
+  image: media/knowledge/hammerin.jpg
+  credit_key: knowledge.hammerin.credit
+  wikipedia: {en: Construction, cs: Stavebnictví}

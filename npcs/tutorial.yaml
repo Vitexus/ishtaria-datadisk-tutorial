@@ -35,6 +35,7 @@
   dialogue: hammerin
   portrait: media/portraits/hammerin.jpg
   bio_key: npc.hammerin.bio
+  about: hammerin
   tags: [tutor]
 
 - id: merchan
