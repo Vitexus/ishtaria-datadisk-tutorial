@@ -1,5 +1,9 @@
 # ishtaria-datadisk-tutorial
 
+<!-- source-notice -->
+> **Primary source:** <https://git.vitexsoftware.com/Ishtaria/ishtaria-datadisk-tutorial> (development happens there). **GitHub** (<https://github.com/Vitexus/ishtaria-datadisk-tutorial>) is a secondary mirror; packages and binaries are **not built from GitHub**.
+<!-- /source-notice -->
+
 Tutorial story datadisk for [Ishtaria](https://git.vitexsoftware.com/Ishtaria/ishtaria-docs).
 **Open source tutorial content** - CC BY-SA 4.0 license. This datadisk demonstrates all
 implemented game features in a guided tutorial experience.
